@@ -62,11 +62,16 @@ function Navbar() {
 					</li>
 				</ul>
 
-				<a href="SignUpForm" className="getstarted" id="getstarted">
+				<Link
+					to="/SignUpForm"
+					id="getstarted"
+					className={active === 5 ? "active" : ""}
+					onClick={() => setActive(5)}
+				>
 					GET STARTED
-				</a>
+				</Link>
 
-				<button
+			<button
 					className="nav-btn  nav-close-btn"
 					onClick={() => {
 						showNavbar();
