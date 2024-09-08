@@ -12,10 +12,11 @@ function Mainsection() {
 				{/*section1 */}
 				<div className="section-1">
 					<div className="para-section1">
-						<p className="ready-para">
-							<strong>Ready to join? Seamless Payments</strong>
-							<br></br> Value Added Services (VAS) organization that offers
-							instant recharge of Airtime, Data Bundle, CableTV (DStv, GOtv &
+						<strong>Ready to join? Seamless Payments</strong>
+
+						<p>
+							Value Added Services (VAS) organization that offers instant
+							recharge of Airtime, Data Bundle, CableTV (DStv, GOtv &
 							Startimes), Electricity Bill Payment, Recharge Card Printing and
 							so much more to our customers.
 						</p>
@@ -30,71 +31,65 @@ function Mainsection() {
 							4.8K+ Used this App
 						</p>
 					</div>
-					<div className="phone-image-container">
-						<img
-							src="./images/mobile-phone.GIF"
-							srcSet="./images/mobile-phone.GIF"
-							sizes="(max-width: 600px) 300px, (max-width: 900px) 600px, 1200px"
-							alt="mobile-phone"
-							className="mobile-phone-image"
-						/>
-					</div>
+
+					<img
+						src="./images/officepic.jpg"
+						alt="mobile-phone"
+						width="400"
+						height="400"
+						className="office-pic"
+					/>
 				</div>
 
 				<div className="wave-section">
-					<img src="./images/gif.GIF" alt="gif" width="100%" height="150" />
+					<img src="./images/gif.GIF" alt="gif" width="97%" height="150" />
 				</div>
 				{/*section2 */}
 				<div className="section-2">
-					<div className="image-container2">
-						<img
-							src="./images/officepic.jpg"
-							alt="mobile-phone"
-							width="600"
-							height="600"
-							className="office-pic"
-						/>
-					</div>
+					<img
+						src="./images/officepic.jpg"
+						alt="mobile-phone"
+						width="400"
+						height="400"
+						className="office-pic"
+					/>
+
 					<div className="focus-section">
 						<div className="focus-text">
+							<strong>We focus on quality</strong>
+							<br></br>
 							<p>
-								<strong>We focus on quality, never focus on quantity</strong>
-								<br></br>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Eligendi, itaque reiciendis illum eveniet dicta ea incidunt
-								excepturi. Omnis
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco.
 							</p>
 						</div>
 						<div className="focus-section-div">
-							<div className="focus-section1">
-								<div className="info">
-									<div className="inner-circle">
-										<FaDownload />
-									</div>
-									2K+ Download
+							<div className="info">
+								<div className="inner-circle">
+									<FaDownload />
 								</div>
-								<div className="info">
-									<div className="inner-circle2">
-										<GiShadowFollower />
-									</div>
-									25K+ Followers
+								2K+ Download
+							</div>
+							<div className="info">
+								<div className="inner-circle">
+									<GiShadowFollower />
 								</div>
+								25K+ Followers
 							</div>
 
-							<div className="focus-section2">
-								<div className="info">
-									<div className="inner-circle">
-										<MdOutlineRateReview />
-									</div>
-									1500+ Review
+							<div className="info">
+								<div className="inner-circle">
+									<MdOutlineRateReview />
 								</div>
+								1500+ Review
+							</div>
 
-								<div className="info">
-									<div className="inner-circle">
-										<TbWorldCancel />
-									</div>
-									4+ Countries
+							<div className="info">
+								<div className="inner-circle">
+									<TbWorldCancel />
 								</div>
+								4+ Countries
 							</div>
 						</div>
 					</div>

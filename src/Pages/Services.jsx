@@ -38,12 +38,14 @@ const Services = () => {
 						alt="trx-img1"
 						width="100%"
 						height="50%"
+						id="id1"
 					/>
 					<img
 						src="./images/trx-img3.jpg"
 						alt="trx-img3"
 						width="100%"
 						height="50%"
+						id="id3"
 					/>
 				</div>
 			</div>

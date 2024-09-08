@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 const SignUpForm = () => {
 	const [action, setAction] = useState("Log In");
 
@@ -65,6 +66,7 @@ const SignUpForm = () => {
 					</div>
 				</div>
 			</div>
+			<Footer/>
 		</>
 	);
 };

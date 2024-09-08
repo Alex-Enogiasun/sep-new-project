@@ -5,8 +5,7 @@ import Footer from "../Components/Footer"
 const About = () => {
 	return (
 		<>
-			
-				<Navbar />
+			<Navbar />
 			<div className="about-div">
 				<div className="about-container">
 					<h1>About Us</h1>
@@ -15,6 +14,13 @@ const About = () => {
 						service and information about our products and services. Our mission
 						is to deliver quality and excellence in everything we do.
 					</p>
+					<img
+						src="./images/trx-img2.jpg"
+						alt="trx-img2"
+						width="100%"
+						height="100%"
+						id="about-img"
+					/>
 					<h2>Our Vision</h2>
 					<p>
 						Our vision is to be the leading company in our industry, known for
@@ -28,7 +34,7 @@ const About = () => {
 					</p>
 				</div>
 			</div>
-			<Footer/>
+			<Footer />
 		</>
 	);
 };

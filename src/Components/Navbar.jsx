@@ -17,7 +17,7 @@ function Navbar() {
 
 	return (
 		<header>
-			<h1 id="logo">BUSINESS NAME</h1>
+			<h1 id="logo">NAME</h1>
 			<nav ref={navRef}>
 				<ul>
 					<li>
@@ -59,19 +59,19 @@ function Navbar() {
 						>
 							Contact
 						</Link>
+
+						<Link
+							to="/SignUpForm"
+							id="getstarted"
+							className={active === 5 ? "active" : ""}
+							onClick={() => setActive(5)}
+						>
+							GET STARTED
+						</Link>
 					</li>
 				</ul>
 
-				<Link
-					to="/SignUpForm"
-					id="getstarted"
-					className={active === 5 ? "active" : ""}
-					onClick={() => setActive(5)}
-				>
-					GET STARTED
-				</Link>
-
-			<button
+				<button
 					className="nav-btn  nav-close-btn"
 					onClick={() => {
 						showNavbar();
