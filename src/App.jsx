@@ -2,10 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Mainsection from "./Components/Mainsection";
 import "./App.css";
-import "./About.css";
-import "./Services.css";
-import "./ContactUs.css";
-import "./SignUpForm.css";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
@@ -18,16 +14,18 @@ import SignUpForm from "./Pages/SignUpForm";
 function App() {
 	return (
 		<>
-			<Router>
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/about" element={<About />} />
-					<Route path="/contact" element={<Contact />} />
-					<Route path="/services" element={<Services />} />
-					<Route path="/signupform" element={<SignUpForm />} />
-					<Route path="*" element={<NotFound />} />
-				</Routes>
-			</Router>
+			<div className="wrapper">
+				<Router>
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/about" element={<About />} />
+						<Route path="/contact" element={<Contact />} />
+						<Route path="/services" element={<Services />} />
+						<Route path="/signupform" element={<SignUpForm />} />
+						<Route path="*" element={<NotFound />} />
+					</Routes>
+				</Router>
+			</div>
 		</>
 	);
 }

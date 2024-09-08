@@ -40,6 +40,7 @@ const SignUpForm = () => {
 						{action === "Log In" ? (
 							<div className="forgot-password">
 								<span>
+									Forget Password?
 									<a href="" id="forgot-password">
 										Click Here
 									</a>
@@ -66,7 +67,7 @@ const SignUpForm = () => {
 					</div>
 				</div>
 			</div>
-			<Footer/>
+			<Footer />
 		</>
 	);
 };
