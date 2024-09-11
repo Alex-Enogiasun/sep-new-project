@@ -20,7 +20,7 @@ const Contact = () => {
 						<button type="submit">Submit</button>
 					</div>
 				</div>
-				<Footer />
+				<Footer/>
 			</div>
 		</>
 	);

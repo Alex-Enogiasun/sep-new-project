@@ -33,7 +33,7 @@ function Mainsection() {
 					</div>
 
 					<img
-						src="./images/officepic.jpg"
+						src="./images/mobile-phone.GIF"
 						alt="mobile-phone"
 						width="400"
 						height="400"

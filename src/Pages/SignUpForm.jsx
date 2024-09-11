@@ -67,7 +67,7 @@ const SignUpForm = () => {
 					</div>
 				</div>
 			</div>
-			<Footer />
+			<Footer/>
 		</>
 	);
 };
