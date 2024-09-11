@@ -811,11 +811,7 @@ input {
 		height: 100em;
 		z-index: 1;
 		width: 100%;
-		position: relative;
-		float: right;
-		margin: auto;
-		margin-right: 0;
-		padding: auto;
+		position: absolute;
 	}
 
 	nav .nav-close-btn {
@@ -906,7 +902,8 @@ input {
 	input {
 		width: 90%;
 		font-size: 1.2em;
-		position: absolute;
+	
+		position: relative;
 	}
 
 	.container-div a {
@@ -917,12 +914,10 @@ input {
 		width: 40%;
 		justify-content: center;
 	}
-	.feedback input {
-		position: relative;
-	}
 }
 
 @media (max-width: 500px) {
+
 	header {
 		height: 15em;
 	}
@@ -932,13 +927,13 @@ input {
 	}
 
 	.container-div {
-		margin-top: -15em;
+		margin: 5em 0em;
 		width: 90%;
 		border: 0.125em solid var(--primaryColor);
 	}
 
 	.inputs {
-		width: 80%;
+		width: 100%;
 	}
 
 	.input {
@@ -989,5 +984,10 @@ input {
 		width: 100%;
 		height: auto;
 		margin: 2em 0em 2em -1em;
+	}
+
+	div input {
+		width: 70%;
+		position: relative;
 	}
 }
